@@ -9,9 +9,9 @@ public:
   int getProjetos() { return projetos; };
   void setNome(std::string entrada) { nome = entrada; };
   void setProjetos(int entrada) { projetos = entrada; };
-  void print(double pagamento){
+  void print(){
     std::cout << "Nome: " << getNome() << std::endl;
-    std::cout << "Salario Mes: " << pagamentoMes(pagamento) << std::endl;
+    std::cout << "Salario Mes: " << pagamentoMes() << std::endl;
     std::cout << "Projetos: " << getProjetos() << std::endl;
     std::cout << std::endl;
   };
